@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -10,11 +8,10 @@
 }
 header{
     background-color: #FFFFFF;
-  
 }
 nav{
-width: 94%;
-max-width: 1600px;
+width: 1697;
+/*max-width: 1697px;*/
 padding: 0 120px;
 border: 1px solid red;
 display: flex;
@@ -41,11 +38,26 @@ nav .btn{
     cursor: pointer;
      padding: 12px 24px;
 }
-.container{
- width: 94%;
-max-width: 1600px;
+.banner{
+padding: 70px 120px 134px;
+/*border: 1px solid red;*/
+background: url(../assets/hero-bg.png);
 }
-.container .container-content{
-  align-items: center;
+.content{
+  display: flex;
+  flex-direction: column;
+margin: 0 auto;
+text-align: center;
+align-items: center;
+justify-content: flex-start;
+/*padding: 120px;*/
+/*border: 1px solid orange;*/
+gap: 16px;
+
 }
+.content .btn-content{
+  color:var(#30b868, rgba(70,145,101,1));
+  
+
+  }
 
